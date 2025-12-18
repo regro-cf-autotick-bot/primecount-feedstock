@@ -1,4 +1,4 @@
-{% set version = "7.20" %}
+{% set version = "8.0" %}
 
 package:
   name: primecount
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/kimwalisch/primecount/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: a9d260b78b9c94c9c0347b3191ab748bc47c0b60114497b80f4290bc36cf9e76
+  sha256: 0265081f45fc938a892a1fd975edb4ff2c097359fc2bfeb739be3d7a759cd36c
 
 build:
   number: 0
